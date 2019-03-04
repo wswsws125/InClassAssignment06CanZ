@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/input_name_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textSize="12sp"
+            android:freezesText="true"
+            android:hint="Animal Name"
+            />
+
+        <EditText
+            android:id="@+id/input_color_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textSize="12sp"
+            android:freezesText="true"
+            android:hint="Color"
+            />
+
+        <EditText
+            android:id="@+id/input_age_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textSize="12sp"
+            android:freezesText="true"
+            android:hint="Age"
+            />
+
+        <CheckBox
+            android:id="@+id/is_amphibian"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Is Amphibian?"/>
+
+
+        <Button
+            android:id="@+id/submit_button"
+            style="@style/ButtonStyle"
+            android:text="submit"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
